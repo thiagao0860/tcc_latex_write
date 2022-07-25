@@ -1,5 +1,6 @@
 # this uses texlive (if you don't have texlive: sudo apt install texlive-full)
-cd src/
+
+cd src/;
 count=0;
 declare -a folder_list;
 
@@ -10,11 +11,11 @@ for dir in *; do
     fi
 done
 
-cd ../
+cd ../;
 
 rm -r output
 for item in ${folder_list[*]}; do
-    mkdir -p "./output/$item"
+    mkdir -p "./output/$item";
 done
 
-source compile.sh
+source compile.sh;

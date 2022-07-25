@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.22)  24 JUL 2022 02:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.22)  24 JUL 2022 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,20 +1166,20 @@ LaTeX Warning: Reference `experimentos' on page 21 undefined on input line 14.
 
 ]
 
-LaTeX Warning: Reference `metodo' on page 27 undefined on input line 11.
+LaTeX Warning: Reference `metodo' on page 27 undefined on input line 17.
 
-) [27]
+) [27] [28]
 \openout2 = `cap_conclusao/conclusao.aux'.
 
- (./cap_conclusao/conclusao.tex [28
+ (./cap_conclusao/conclusao.tex
+
+LaTeX Warning: Reference `avaliacao' on page 29 undefined on input line 8.
+
+) [29
 
 
 
 ]
-
-LaTeX Warning: Reference `avaliacao' on page 29 undefined on input line 8.
-
-) [29]
 No file main_tcc_ufu.bbl.
 [30
 
@@ -1394,10 +1394,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 304.
  ) 
 Here is how much of TeX's memory you used:
- 16190 strings out of 481239
- 250758 string characters out of 5920377
+ 16192 strings out of 481239
+ 250774 string characters out of 5920377
  886739 words of memory out of 5000000
- 30862 multiletter control sequences out of 15000+600000
+ 30864 multiletter control sequences out of 15000+600000
  624332 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,14n,52p,1034b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1417,7 +1417,7 @@ xmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 s12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ../output/main_tcc_ufu.pdf (52 pages, 427581 bytes).
+Output written on ../output/main_tcc_ufu.pdf (52 pages, 428172 bytes).
 PDF statistics:
  611 PDF objects out of 1000 (max. 8388607)
  519 compressed objects within 6 object streams
