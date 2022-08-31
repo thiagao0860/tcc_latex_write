@@ -1,20 +1,43 @@
 \chapter[Introdução]{Introdução}
 
-Contextualize o seu trabalho de forma sucinta. Delimite o seu tema de estudo. Convença o leitor da relevância e importância do seu trabalho.
- 
+Ao estudar a história das civilizações humanas como um todo, um fato que ganha bastante evidência é a ligação próxima 
+entre o desenvolvimento de novas e disruptivas técnicas e grandes transformações sociais e ecônomicas fato que pode 
+ser obsevado muito claramente, nas três primeiras revoluções industriais com a inclusão, respectivamente, da máquina 
+a vapor, energia elétrica e computadores gerando transformações incomensuráveis no \textit{status} social. Atualmente,
+vivemos também um momento de grande transformação dirigido principalmente pelo desenvolvimento das comunicações, expondo 
+ao mundo um novo nível de informações, o que, como era de se esperar, também está atrelado a uma nova revolução das 
+técnicas, a indústria 4.0. Embora ela não possua ainda um componente que resuma sua importância como nas três anteriores, 
+sua influência no mundo é perceptível em várias áreas: criando ambientes virtuais, comunicação entre maquinários e serviços, aumento das 
+plataformas "\textit{as a service}", entre outras ramificações.
+
+Entre os vários caminhos abertos na quarta revolução industrial, um dos mais expressivos é o da descentralização de sistemas
+de grande complexidade, neste sentido o uso de componentes inteligentes capazes de resolver parte de seus desafios em 
+\textit{Edge} associados a uma infraestrutura elástica\footnote{Entende-se aqui como infraestrutura elástica aquela que 
+pode ser facilmente ajustada as necessidades momentâneas.} disponibilizada via nuvem tem se mostrado como uma arquitetura 
+extremamente poderosa e promissora. Este trabalho, por sua vez, apresenta modo conectar componentes essenciais da manufatura
+nesta arquitetura, seus ganhos e observações da aplicação prática.
+
 
 \section{Motivação}
-Introduza o leitor ao assunto, descreva os fatores motivadores para o desenvolvimento do seu trabalho.   Descreva brevemente o estado da arte e indique os problemas que ainda não foram resolvidos. Faça um gancho para a próxima sub-seção em que você descreve os  objetivos do seu trabalho. 
+A motivação para a realização deste estudo se dá por dois grandes vieses, um deles surge pelo aumento do maquinário 
+existente no \ac{MAPL} que aumenta a necessidade de um sistema que auxilie no controle e gerenciamento destes componentes
+tanto de forma local como remotamente. Além disso, o grande período de afastamento dos laboratórios por conta da 
+pandemia enfrentada nos últimos anos fez aumentar em muito os questionamentos sobre a necessidade de muitos processos 
+essencialmente presenciais e acelerou o desenvolvimento de várias tecnologias voltadas a realização de atividades via acesso
+remoto, contexto no qual este estudo se insere.
 
-\section{Objetivos e Desafios da Pesquisa}
-Descreva claramente os desafios que o tema propõe e quais os  objetivos que se pretende alcançar. Se o tema for muito abrangente, descreva os objetivos em termos de "objetivo geral" e  "objetivos específicos". Cuidado com objetivos como "desenvolver um sistema...."; "explorar um método ...".Esses objetivos são triviais, ou seja, uma vez desenvolvido o sistema ou explorado o método, independente dos resultados, o objetivo foi atingido. Prefira verbos como: "contribuir", "analisar", "investigar", "comparar". Os membros da banca ao lerem essa seção farão o seguinte questionamento: Algum conhecimento novo para a humanidade foi produzido?
+\section{Objetivos e Desafios}
+O principal objetivo deste trabalho é a contrução de um modelo de comunicação, ou \textit{Framework}, que seja de simples
+entendimento e possível adaptação para comunicação com outros tipos de dados, do ponto de vista de código; que seja 
+modular, isto é, que possa ser adaptado a diferentes tipos de máquinários sem precisar passar por grandes alterações;
+que possa ser acessado remotamente, sem que isso torne o sistema dependente de redes externas; e que, por fim, possa ser 
+alterado facilmente dada a alta mutabilidade dos sistemas atuais.   
 
+\section{Organização da Dissertação}
+Seguindo os objetivos descritos acima o presente trabalho, passa pela construção de \textit{Framework} a que se impõe grande versatilidade,
+desta forma durante sua construção passar-se-á por uma grande revisão de documentos normativos, manuais de fabricantes e 
+documentações oficiais; pois somente assim podemos focar em quais são os limites da aplicação de suas funções diferentemente
+de um trabalho onde não se sabe sobre o funcionamento e faz-se um teste para saber se funciona. Em segundo momento serão 
+apresentados os conceitos que guiaram o desenvolvimento e; por fim; foi realizado uma série de testes, como uma prova de
+conceito, comprovando a aplicabilidade do \textit{Framework} de forma prática.
 
-\section{Hipótese}
-Descreva claramente quais são as hipóteses da sua pesquisa (Uma hipótese é uma suposição para a solução do problema que você pretende desenvolver). Indique quais perguntas estão associadas a sua hipótese. Lembre-se que as hipóteses deverão ser comprovadas via os experimentos que serão descritos no capítulo \ref{experimentos}.
-
-\section{Contribuições}
-Liste as contribuições do seu trabalho. Lembre-se que publicações não são contribuições científicas do seu trabalho. Haverá uma seção específica com esse fim.
-
-\section{Organização da Dissertação ou Tese}
-Descreva como a sua monografia está organizada, descrevendo brevemente o conteúdo de cada capítulo.

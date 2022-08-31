@@ -73,7 +73,7 @@
 \RequirePackage{ae}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[alf,abnt-emphasize=bf,abnt-repeated-author-omit=yes,abnt-year-extra-label=yes]{abntex2cite}	% Citações padrão ABNT
+\RequirePackage{abntex2cite}	% Citações padrão ABNT
 \RequirePackage{color}	% Controle das cores
 \RequirePackage{pifont}
 \RequirePackage{lastpage}
@@ -368,7 +368,6 @@
 	\cleardoublepage
 }
 % ---
-
 % ---
 % Lista de tabelas
 % ---
@@ -386,9 +385,10 @@
 	\thispagestyle{empty}
 	\pagestyle{empty}
 	\pdfbookmark[0]{Lista de siglas}{Lista de siglas} 
-	\chapter*{Lista de siglas}
-	\input{#1}
-	\cleardoublepage
+	
+    \include{#1}
+	
+    \cleardoublepage
 }
 
 \floatname{algorithm}{Algoritmo}

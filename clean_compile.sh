@@ -18,4 +18,13 @@ for item in ${folder_list[*]}; do
     mkdir -p "./output/$item";
 done
 
+cp -f src/bib/referencias.bib output/bib/referencias.bib;
+
+source compile.sh;
+
+cd output/;
+bibtex main_tcc_ufu.aux;
+cd ../;
+
+source compile.sh;
 source compile.sh;

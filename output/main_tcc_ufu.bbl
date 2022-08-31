@@ -1,0 +1,143 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem{ISO1219:1997}
+\abntrefinfo{ISO}{ISO}{1997}
+{INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. \emph{{ISO} 1219:1997}: Fluid
+  power systems and components — graphic symbols.
+[S.l.], 1997. 23~p.}
+
+\bibitem{ISO1219-1:2012}
+\abntrefinfo{ISO}{ISO}{2012}
+{INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. \emph{{ISO} 1219-1:2012}:
+  Fluid power systems and components — graphical symbols and circuit diagrams
+  — part 1: Graphical symbols for conventional use and data-processing
+  applications.
+[S.l.], 2012. 178~p.}
+
+\bibitem{ISO1219-1:2012/AMD-1:2016}
+\abntrefinfo{ISO}{ISO}{2016}
+{INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. \emph{{ISO} 1219-1:2012/AMD
+  1:2016}: Fluid power systems and components — graphical symbols and circuit
+  diagrams — part 3: Symbol modules and connected symbols in circuit
+  diagrams.
+[S.l.], 2016. 2~p.}
+
+\bibitem{ISO1219-2:2012}
+\abntrefinfo{ISO}{ISO}{2012}
+{INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. \emph{{ISO} 1219-2:2012}:
+  Fluid power systems and components — graphical symbols and circuit diagrams
+  — part 2: Circuit diagrams.
+[S.l.], 2012. 42~p.}
+
+\bibitem{ISO1219-3:2016}
+\abntrefinfo{ISO}{ISO}{2016}
+{INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. \emph{{ISO} 1219-3:2016}:
+  Fluid power systems and components — graphical symbols and circuit diagrams
+  — part 1: Graphical symbols for conventional use and data-processing
+  applications.
+[S.l.], 2016. 23~p.}
+
+\bibitem{IEC-61131-1:2003}
+\abntrefinfo{IEC}{IEC}{2003a}
+{INTERNATIONAL ELECTROTECHNICAL COMMISSION. \emph{IEC 61131-1:2003}:
+  Programmable controllers - part 1: General information.
+[S.l.], 2003. 36~p.}
+
+\bibitem{IEC-61131-3:2013}
+\abntrefinfo{IEC}{IEC}{2003b}
+{INTERNATIONAL ELECTROTECHNICAL COMMISSION. \emph{IEC 61131-3:2013}:
+  Programmable controllers - part 3: Programming languages.
+[S.l.], 2003. 464~p.}
+
+\bibitem{IEC-60848:2013}
+\abntrefinfo{IEC}{IEC}{2013}
+{INTERNATIONAL ELECTROTECHNICAL COMMISSION. \emph{IEC 60848:2013}: Grafcet
+  specification language for sequential function charts.
+[S.l.], 2013. 109~p.}
+
+\bibitem{buzzword-cam}
+\abntrefinfo{{buzzword}}{{buzzword}}{2022}
+{{buzzword}. 2022.
+[Online; accessed 28. Aug. 2022].
+Dispon{\'\i}vel em:
+  \url{https://dictionary.cambridge.org/dictionary/english/buzzword}.}
+
+\bibitem{artigo-nuvem}
+\abntrefinfo{Qian et al.}{QIAN et al.}{2009}
+{QIAN, L. et al. Cloud computing: An overview. In:  JAATUN, M.~G.; ZHAO, G.;
+  RONG, C. (Ed.). \emph{Cloud Computing}. Berlin, Heidelberg: Springer Berlin
+  Heidelberg, 2009. p. 626--631.
+ISBN 978-3-642-10665-1.}
+
+\bibitem{multics-paper}
+\abntrefinfo{Introduction\ldots}{INTRODUCTION\ldots}{1965}
+{INTRODUCTION and Overview of the Multics System. 1965.
+[Online; accessed 28. Aug. 2022].
+Dispon{\'\i}vel em: \url{https://www.multicians.org/fjcc1.html}.}
+
+\bibitem{mqtt-std}
+\abntrefinfo{MQTT\ldots}{MQTT\ldots}{2019}
+{MQTT Version 5.0. 2019.
+[Online; accessed 28. Aug. 2022].
+Dispon{\'\i}vel em:
+  \url{https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html}.}
+
+\bibitem{datasheet-soc}
+\abntrefinfo{ESP32\ldots}{ESP32\ldots}{2022}
+{ESP32 Series Datasheet. 2022.
+[Online; accessed 29. Aug. 2022].
+Dispon{\'\i}vel em:
+  \url{https://www.espressif.com/sites/default/files/documentation/esp32\_datasheet\_en.pdf}.}
+
+\bibitem{datasheet-modulo}
+\abntrefinfo{ESP32­WROOM­32E\ldots}{ESP32­WROOM­32E\ldots}{2022}
+{ESP32­WROOM­32E ESP32­WROOM­32UE Datasheet. 2022.
+[Online; accessed 29. Aug. 2022].
+Dispon{\'\i}vel em:
+  \url{https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e\_esp32-wroom-32ue\_datasheet\_en.pdf}.}
+
+\bibitem{mapl-repo}
+\abntrefinfo{Mapl-Ufu}{MAPL-UFU}{2022}
+{MAPL-UFU. \emph{{IndustrialAutomationMQTT}}. 2022.
+[Online; accessed 26. Aug. 2022].
+Dispon{\'\i}vel em:
+  \url{https://github.com/MAPL-UFU/IndustrialAutomationMQTT}.}
+
+\bibitem{suported-c}
+\abntrefinfo{espressif}{ESPRESSIF}{2022}
+{ESPRESSIF. \emph{Suporte para C++17}. 2022.
+[Online; accessed 29. Aug. 2022].
+Dispon{\'\i}vel em: \url{https://github.com/espressif/esp-idf/issues/2449}.}
+
+\bibitem{gcc-5}
+\abntrefinfo{GCC\ldots}{GCC\ldots}{2022}
+{GCC 5 Release Series Changes, New Features, and Fixes - GNU Project. 2022.
+[Online; accessed 29. Aug. 2022].
+Dispon{\'\i}vel em: \url{https://gcc.gnu.org/gcc-5/changes.html}.}
+
+\bibitem{raspberry-pi}
+\abntrefinfo{Raspberry\ldots}{RASPBERRY\ldots}{2021}
+{RASPBERRY Pi Datasheets. 2021.
+[Online; accessed 29. Aug. 2022].
+Dispon{\'\i}vel em: \url{https://datasheets.raspberrypi.com}.}
+
+\bibitem{mosq-doc}
+\abntrefinfo{Mosquitto}{MOSQUITTO}{2022}
+{MOSQUITTO, E. \emph{{mosquitto conf man page}}. 2022.
+[Online; accessed 26. Aug. 2022].
+Dispon{\'\i}vel em: \url{https://mosquitto.org/man/mosquitto-conf-5.html}.}
+
+\bibitem{esp-idf-docs}
+\abntrefinfo{ESP-IDF\ldots}{ESP-IDF\ldots}{2022}
+{ESP-IDF Programming Guide - ESP32 ESP-IDF Programming Guide latest
+  documentation. 2022.
+[Online; accessed 28. Aug. 2022].
+Dispon{\'\i}vel em:
+  \url{https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html}.}
+
+\end{thebibliography}

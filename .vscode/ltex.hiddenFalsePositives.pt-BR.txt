@@ -1,0 +1,1 @@
+{"rule":"HUNSPELL_RULE","sentence":"^\\QCom o uso do \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, temos um grande avanço no sentido de objetos em rede autogerenciáveis,\\E$"}
