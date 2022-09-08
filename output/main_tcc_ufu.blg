@@ -26,7 +26,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bib/referencias.bib
-Warning--I didn't find a database entry for "ubunto-inst"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -36,45 +35,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 21 entries,
+You've used 23 entries,
             6714 wiz_defined-function locations,
-            1310 strings with 12420 characters,
-and the built_in function-call counts, 26675 in all, are:
-= -- 3820
-> -- 82
-< -- 646
-+ -- 873
-- -- 25
-* -- 1406
-:= -- 3085
-add.period$ -- 86
-call.type$ -- 21
-change.case$ -- 137
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 2468
-empty$ -- 1214
-format.name$ -- 137
-if$ -- 5842
+            1320 strings with 12706 characters,
+and the built_in function-call counts, 28840 in all, are:
+= -- 4064
+> -- 137
+< -- 676
++ -- 934
+- -- 41
+* -- 1543
+:= -- 3332
+add.period$ -- 92
+call.type$ -- 23
+change.case$ -- 161
+chr.to.int$ -- 22
+cite$ -- 22
+duplicate$ -- 2617
+empty$ -- 1332
+format.name$ -- 219
+if$ -- 6341
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 322
-newline$ -- 119
-num.names$ -- 17
-pop$ -- 431
+missing$ -- 357
+newline$ -- 128
+num.names$ -- 21
+pop$ -- 490
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 74
 quote$ -- 0
-skip$ -- 3296
+skip$ -- 3506
 stack$ -- 1
-substring$ -- 1257
-swap$ -- 864
+substring$ -- 1333
+swap$ -- 919
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 80
 warning$ -- 0
-while$ -- 69
+while$ -- 77
 width$ -- 0
-write$ -- 262
-(There was 1 warning)
+write$ -- 284

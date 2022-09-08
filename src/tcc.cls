@@ -65,7 +65,7 @@
 %=========================================================================
 % Herança da classe `abntex2' e inclusão de pacotes e arquivos necessários
 %=========================================================================
-\LoadClass[a4paper,12pt,twoside,openright]{abntex2}
+\LoadClass[a4paper,12pt,oneside,openright]{abntex2}
 
 %=========================================================================
 % Herança da classe `abntex2' e inclusão de pacotes e arquivos necessários
@@ -173,20 +173,6 @@
 \newlength{\titlepagewinheight}\setlength{\titlepagewinheight}{64mm}
 \newlength{\titlepagewinvoffset}\setlength{\titlepagewinvoffset}{120mm}
 
-\instituicao
-{%
-\parbox[c][4em][c]{\textwidth}{
-	\center
-    \includegraphics[width=2in]{figs/logo-ufu2}
-	\par
-	Universidade Federal de Uberlândia
-    \par
-	Faculdade de Engenharia Mecânica
-    \par
-	Graduação em Engenharia Mecatrônica
-}
-}
-
 \preambulo{
 	\@tipotrabalho~apresentado à Faculdade de Engenharia Mecânica da Universidade Federal de Uberlândia como requisito
     parcial para obtenção do título de \@nivelPos~em Engenharia Mecatrônica.
@@ -204,12 +190,9 @@
 		\centering
 		\vbox to \titlepagewinvoffset
 		{
-            \rule{1.2\titlepagewinwidth}{0.4pt}
-			\@formatatitulocapa
-            \rule{1.2\titlepagewinwidth}{0.4pt}
-			\vfill
 			\@formataautorcapa
-            \vfill
+			\@formatatitulocapa
+			\vfill
             \scshape\imprimirinstituicao
 		}
 	}
@@ -365,7 +348,6 @@
 \newcommand{\listailustracoes}{
 	\pdfbookmark[0]{\listfigurename}{lof}
 	\listoffigures*
-	\cleardoublepage
 }
 % ---
 % ---
@@ -374,7 +356,6 @@
 \newcommand{\listatabelas}{
 	\pdfbookmark[0]{\listtablename}{lot}
 	\listoftables*
-	\cleardoublepage
 }
 % ---
 
@@ -388,7 +369,7 @@
 	
     \include{#1}
 	
-    \cleardoublepage
+     
 }
 
 \floatname{algorithm}{Algoritmo}
@@ -399,7 +380,7 @@
 	\thispagestyle{empty}
 	\pagestyle{empty}
 	\listofalgorithms
-	\cleardoublepage
+	 
 }
 
 \renewcommand{\nompreamble}{\thispagestyle{empty}}
@@ -410,7 +391,7 @@
 	\makenomenclature
 	\pdfbookmark[0]{\nomname}{los}
 	\printnomenclature
-	\cleardoublepage
+	 
 }
 % ---
 
@@ -423,7 +404,7 @@
 	\thispagestyle{empty}
 	\pagestyle{empty}
 	\@starttoc{toc}
-	\cleardoublepage}
+	 }
 % ---
 
 %========================================================================
@@ -445,7 +426,7 @@
    	\vspace{0.5cm}
    	\noindent\textbf{Palavras-chave:} \@abstractkw.
 	\thispagestyle{empty}
-	\cleardoublepage
+	 
 }
 
 % ---
@@ -465,7 +446,7 @@
    	\vspace{0.5cm}
    	\noindent\textbf{Keywords:} \@abstractkw.
 	\thispagestyle{empty}
-	\cleardoublepage
+	 
 }
 % ---
 

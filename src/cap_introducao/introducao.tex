@@ -6,15 +6,17 @@ ser obsevado muito claramente, nas três primeiras revoluções industriais com 
 a vapor, energia elétrica e computadores gerando transformações incomensuráveis no \textit{status} social. Atualmente,
 vivemos também um momento de grande transformação dirigido principalmente pelo desenvolvimento das comunicações, expondo 
 ao mundo um novo nível de informações, o que, como era de se esperar, também está atrelado a uma nova revolução das 
-técnicas, a indústria 4.0. Embora ela não possua ainda um componente que resuma sua importância como nas três anteriores, 
-sua influência no mundo é perceptível em várias áreas: criando ambientes virtuais, comunicação entre maquinários e serviços, aumento das 
+técnicas, a indústria 4.0. O que está em curso nesta revolução é a redução do custo dos microprocessadores o que propicia
+o uso dos mesmos de forma distribuída e dispersa, e permite desmontar o paradigma da lógica e processamento centralizado.
+A influência da descentralização e dispersão dos microprocessadores no mundo é perceptível em várias áreas: criando
+ambientes virtuais, comunicação entre maquinários e serviços, aumento das 
 plataformas "\textit{as a service}", entre outras ramificações.
 
 Entre os vários caminhos abertos na quarta revolução industrial, um dos mais expressivos é o da descentralização de sistemas
 de grande complexidade, neste sentido o uso de componentes inteligentes capazes de resolver parte de seus desafios em 
-\textit{Edge} associados a uma infraestrutura elástica\footnote{Entende-se aqui como infraestrutura elástica aquela que 
+\textit{Edge} (ou localmente) associados a uma infraestrutura flexível\footnote{Entende-se aqui como infraestrutura flexível aquela que 
 pode ser facilmente ajustada as necessidades momentâneas.} disponibilizada via nuvem tem se mostrado como uma arquitetura 
-extremamente poderosa e promissora. Este trabalho, por sua vez, apresenta modo conectar componentes essenciais da manufatura
+extremamente poderosa e promissora. Surge a questão referente ao modo de conectar componentes essenciais da manufatura
 nesta arquitetura, seus ganhos e observações da aplicação prática.
 
 
@@ -27,17 +29,26 @@ essencialmente presenciais e acelerou o desenvolvimento de várias tecnologias v
 remoto, contexto no qual este estudo se insere.
 
 \section{Objetivos e Desafios}
-O principal objetivo deste trabalho é a contrução de um modelo de comunicação, ou \textit{Framework}, que seja de simples
+O principal objetivo deste trabalho é a construção de um modelo de comunicação, ou \textit{Framework} \ac{MQTT} para aplicações
+acadêmico-industriais, que seja de simples
 entendimento e possível adaptação para comunicação com outros tipos de dados, do ponto de vista de código; que seja 
-modular, isto é, que possa ser adaptado a diferentes tipos de máquinários sem precisar passar por grandes alterações;
+modular, isto é, que possa ser adaptado a diferentes tipos de maquinários sem precisar passar por grandes alterações;
 que possa ser acessado remotamente, sem que isso torne o sistema dependente de redes externas; e que, por fim, possa ser 
-alterado facilmente dada a alta mutabilidade dos sistemas atuais.   
+alterado facilmente dada a alta mutabilidade dos sistemas atuais.
 
-\section{Organização da Dissertação}
+Entre os objetivos específicos do \textit{framework} pode-se citar:
+
+\begin{itemize}
+    \item Ser acoplável a diferentes maquinários
+    \item Deve ser capaz de ser comunicar com a nuvem, mas não pode ser dependente dela
+    \item Os códigos utilizados devem ser modulares e de fácil implementação em outros projetos.
+\end{itemize}
+
+\section{Organização do Trabalho}
 Seguindo os objetivos descritos acima o presente trabalho, passa pela construção de \textit{Framework} a que se impõe grande versatilidade,
 desta forma durante sua construção passar-se-á por uma grande revisão de documentos normativos, manuais de fabricantes e 
 documentações oficiais; pois somente assim podemos focar em quais são os limites da aplicação de suas funções diferentemente
 de um trabalho onde não se sabe sobre o funcionamento e faz-se um teste para saber se funciona. Em segundo momento serão 
-apresentados os conceitos que guiaram o desenvolvimento e; por fim; foi realizado uma série de testes, como uma prova de
+apresentados os requisitos que guiaram o desenvolvimento e; por fim; será realizada uma série de testes, como uma prova de
 conceito, comprovando a aplicabilidade do \textit{Framework} de forma prática.
 

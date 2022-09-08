@@ -15,11 +15,11 @@ parte de implementação dos códigos que serão vitais para o entendimento da a
 	\caption{Exemplo de componentes pneumáticos.} 
 \end{figure}
 
-No contexto da Engenharia Mecatrônica e da automação no geral, uma das principais tecnologias utilizadas na solução de
-problemas de diferentes áreas são os circuitos de comando hidráulicos e pneumáticos, seu amplo uso já de longo período e
-sua capacidade de ser implementada em diferentes campos fazem com que esta ferramenta possua ampla documentação e suporte
-de uma estabelecida cadeia de suprimentos, com os mais diversos tipos de componentes. Este consolidado status garante 
-que estes circuitos sejam um tópico amplamente abordado durante a formação do engenheiro, e como em qualquer outra 
+No contexto da Engenharia Mecatrônica e da automação no geral, uma das  tecnologias utilizadas na solução de
+problemas de diferentes áreas são os circuitos de comando hidráulicos e pneumáticos, seu  uso já de longo período e
+sua capacidade de ser implementada em diferentes campos fazem com que esta ferramenta possua boa documentação e suporte
+de uma estabelecida cadeia de suprimentos, com os mais diversos tipos de componentes. Este consolidado \textit{status} garante 
+que estes circuitos sejam um tópico abordado durante a formação do engenheiro, e como em qualquer outra 
 ferramenta neste contexto são desenvolvidos diversos modelos e métodos que auxiliam em sua implementação. 
 
 \subsection{Métodos de Representação e Simulação}
@@ -27,13 +27,14 @@ ferramenta neste contexto são desenvolvidos diversos modelos e métodos que aux
 Uma das ferramentas mais importantes que garantem a circuitos hidráulicos e pneumáticos a posição mencionada acima é a 
 existência de uma simbologia bastante sólida para os cada vez mais complexos sistemas utilizados na industria. Esta simbologia,
 instituida primeiramente pela ISO 1219:1997 \cite{ISO1219:1997}, mas substituída algumas vezes logo depois até atingir a
-estrutura atual, na qual seu escopo foi dividido em três partes:
+estrutura atual, na qual seu escopo foi dividido em três partes, um exemplo desta simbologia é apresentado na 
+\autoref{fig:diag_norma} onde está representado um sistema de comando de três atuadores e um motor eletro-hidráulico:
 
 \begin{figure}[htb]
     \begin{center}
 	    \includegraphics[scale=0.5]{figs/std-example.png}
 	\end{center}
-	\caption{Exemplo de diagrama proposto na norma.} 
+	\caption{\label{fig:diag_norma} Exemplo de diagrama proposto na norma ISO 1219.} 
 \end{figure}
 
 \begin{itemize}
@@ -47,15 +48,15 @@ estrutura atual, na qual seu escopo foi dividido em três partes:
 
 \end{itemize}
 
-A partir desta simbologia podemos criar uma série de \textit{softwares} de simulação capazes de auxiliar-nos na 
+A partir desta simbologia pode-se criar uma série de \textit{softwares} de simulação capazes de auxiliar na 
 implementação dos mais diversos sistemas, como o FluidSIM\textregistered~ e o Automation Studio, onde podemos executar
 versões virtuais dos ambientes reais, e observar os resultados. 
 
-\subsection{Ladder}
+\subsection{CLP e linguagem de programação Ladder}
 
 Apesar do ambiente altamente robusto descrito acima, o crescimento da complexidade dos problemas abordados no meio da 
-automação industrial ainda tem se mostrado como um grande desafio. Neste contexto um segundo tópico que também tem função 
-importante é o desenvolvimento de métodos que pudessem auxiliar no desenvolvimento dá lógica, sendo em um primeiro momento
+automação industrial ainda tem se mostrado como um grande desafio. Neste contexto um segundo tópico a ser abordade é o
+desenvolvimento de métodos que pudessem auxiliar no desenvolvimento dá lógica, sendo em um primeiro momento
 a inclusão dos diagramas de relés, de forma a ficarem estes componentes os principais responsáveis pelo comando; 
 mas depois sendo substituído por \ac{CLP} um componente capaz de implementar via código as complicadas sequências de acionamento.
 Os primeiros esforços no sentido de garantir um modelo padronizado neste sentido vieram da norma IEC 61131 que se dispunha
@@ -79,19 +80,24 @@ linguagem foi construída de forma que estes códigos pudessem ser facilmente in
     ladder logic diagram. LD networks are bounded on the left and right by power rails.\cite{IEC-61131-3:2013}
 \end{citacao}    
 
+Na \autoref{fig:prog_ladder} é possível visualizar um exemplo de código Ladder com dois acionadores paralelos e 
+intertravamento.
+
 \begin{figure}[htb]
     \begin{center}
 	    \includegraphics{figs/ladder-diag.png}
 	\end{center}
-	\caption{Exemplo de código Ladder proposto na norma.} 
+	\caption{\label{fig:prog_ladder} Exemplo de código Ladder proposto na norma IEC 61131-3.} 
 \end{figure}
 
 \subsection{GRAFCET}
 
 Por fim, como último método de grande importância no desenvolvimento de circuitos hidráulicos e pneumáticos em geral, 
-podemos mencionar o \ac{GRAFCET} já que este é um tipo de modelagem onde conseguimos representar de uma forma sequancial
-modelos altamente complexos. Por ser baseado nas Redes de Petri o \ac{GRAFCET} é visto como um modelo com forte base
-matemática comprovado pela teoria de grafos.
+podemos mencionar o \ac{GRAFCET} já que este é um tipo de modelagem onde conseguimos representar de uma forma sequencial
+modelos altamente complexos. Construído a partir de um caso especial dos Grafos Bipartidos, com elementos subdivididos 
+nos grupos etapas e transições o \ac{GRAFCET} é visto como um modelo com forte base
+matemática que remonta a Teoria de Conjuntos. A \autoref{fig:grafcet} apresenta um exemplo de representação gráfica de um 
+\ac{GRAFCET}, em que os retângulos representam etapas e os pequenos traços na horizontal são transições.
 
 Apesar de ser um método para modelagem e dimensionamento de processos, alguns \ac{CLP}s aceitam o \ac{GRAFCET} como uma
 linguagem de programação diretamente assim como previsto na norma IEC 60848:2013 \cite{IEC-60848:2013}, o que traz uma 
@@ -102,12 +108,12 @@ processos permitindo que grandes times possam trabalhar no seu desenvolvimento.
     \begin{center}
 	    \includegraphics[scale=0.5]{figs/grafcet-diag.png}
 	\end{center}
-	\caption{Exemplo de código GRAFCET proposto na norma.} 
+	\caption{\label{fig:grafcet} Exemplo de código GRAFCET proposto na norma IEC 60848.} 
 \end{figure}
 
 \section{Computação em Nuvem}
 
-Visto como uma das maiores \textit{buzzword}\footnote{Segundo o dicionário Cambridge: \textit{Buzzword} é uma palavra ou expressão de uma 
+Visto como uma das maiores \textit{buzzwords}\footnote{Segundo o dicionário Cambridge: \textit{Buzzword} é uma palavra ou expressão de uma 
 área de assunto particular que se tornou moda, porque tem sido muito usado \cite{buzzword-cam}} da atualidade e com uso 
 ainda crescente. Porém, a definição de computação em nuvem é bastante vaga \cite{artigo-nuvem} em alguns casos sendo 
 associada a virtualização de servidores, em outros casos a disponibilização de Infraestrutura como serviço (\ac{IaaS}) ou 
@@ -132,7 +138,7 @@ which are convenient to him for writing either single programs or whole subsyste
 
 \section{O Protocolo MQTT}
 
-Apresentado pela própria OASIS\textregistered~ como o protocolo padrão para a troca de mensagens \ac{IOT} o protocolo \ac{MQTT}
+Apresentado pela própria OASIS\textregistered~ como o protocolo padrão para a troca de mensagens \ac{IOT}, o protocolo \ac{MQTT}
 tem ganhado espaço em diversas aplicações por se mostrar como um modelo em que cada componente é capaz de controlar qual
 tipo de informação ele pode transmitir e receber, o que é visto como um grande ganho do ponto de vista do \ac{IOT}; além 
 disso, em uma rede \ac{MQTT} a entrada e saída de novos componentes em rede acontece de forma bastante simples, sem 
@@ -140,7 +146,9 @@ necessitar que o responsável pela rede refaça toda sua configuração.
 
 Para implementar estes conceitos o protocolo utiliza a arquitetura \textit{publisher/subscriber} em que são definidos
 uma série de tópicos e cada componente pode se cadastrar como publicador de um grupo de tópicos e subscritor de outro 
-grupo de tópicos\footnote{Estes grupos não são exclusivos}. Assim, os servidores desta rede (ou \textit{Brokers} seguindo a terminologia
+grupo de tópicos\footnote{Estes grupos não são exclusivos}, na figura \autoref{fig:mqtt_sys} é possível ver a representação de um 
+sistema onde o celular e servidor secundário para \textit{Backend} consultam dados publicados pelo sensor de temperatura. 
+Assim, os servidores desta rede (ou \textit{Brokers} seguindo a terminologia
 descrita no OASIS MQTTv5 Standard \cite{mqtt-std}) podem deixar a função de orquestradores da rede e se tornarem responsáveis
 por rotear as mensagens transmitidas por cada tópico. Com o uso do \ac{MQTT}, temos um grande avanço no sentido de objetos
 em rede autogerenciáveis, mais informações sobre o uso desta ferramenta em especifíco neste trabalho serão apresentadas 
@@ -150,12 +158,12 @@ mais a frente.
     \begin{center}
 	    \includegraphics[scale=0.3]{figs/mqtt-publish-subscribe.png}
 	\end{center}
-	\caption{Diagrama representativo da arquitetura \ac{MQTT}.} 
+	\caption{\label{fig:mqtt_sys} Diagrama representativo da arquitetura \ac{MQTT}.} 
 \end{figure}
 
 \section{Microcontroladores ESP32}
 
-Tido como um dos principais microcontroladores para desenvolvimento \ac{IOT} os ESP tem uma grande vantagem em relação 
+Um dos principais microcontroladores para desenvolvimento \ac{IOT} os ESP tem uma grande vantagem em relação 
 a uma gama de outros microcontroladores pois possuem módulos para comunicação \textit{wireless} embutidos no próprio
 \textit{chip}, neste meio a família ESP32 apresenta-se, entre as linhas de produto ainda em desenvolvimento pela 
 Expressif\textregistered~, como uma das mais completas apresentando como principais características:
@@ -174,14 +182,14 @@ Apesar de muitas pessoas entenderem os ESPs diretamente como uma placa de desenv
 alternativa semelhante ao arduino, é importante fazer a distinção clara entre os dois componentes. Diferente 
 do Arduino onde temos vários \ac{CI} com diferentes funções, no caso do ESP32 estamos falando de um \ac{SoC} responsável
 por todas estas capacidades acima. Por outro lado, o fabricante disponibiliza em seu catálogo três modelos de encapsulamento
-para o mesmo \textit{chip}, sendo eles: 
+para o mesmo \textit{chip}, assim como demostrado na \autoref{fig:esp-fam}, sendo eles: 
 
 \begin{itemize}
     \item \textbf{ESP32 DOWD v3}, o próprio \ac{SoC}, sendo este o modelo mais simples e econômico para inclusão em produtos já de longo ciclo no 
     mercado, porém utilizar este componente diretamente no circuito exige um maior tempo dedicado ao \textit{design} da interface, uma 
     vez que ele traz consigo uma série de \textit{guidelines} a serem seguidos para sua instalação. \cite{datasheet-soc}
     \item \textbf{ESP32-WROOM-32E}, o módulo, sendo este o grande foco deste trabalho, é um módulo de fácil inclusão no \textit{design} de outras PCBs   
-    possui já possui proteção térmica e de ruído, circuito para filtro da fonte de tensão, gerador de \textit{clock} e antena PCB inclusos. \cite{datasheet-modulo}
+    , já possui proteção térmica e de ruído, circuito para filtro da fonte de tensão, gerador de \textit{clock} e antena PCB inclusos. \cite{datasheet-modulo}
     \item \textbf{ESP32-DevKitC}, a placa de prototipagem, neste componente temos uma pinagem de simples acesso para as saídas do módulo de forma 
     que o uso de \textit{jumpers} fica simples, e também temos incluído botões para mudar o \textit{chip} para o modo de gravação, uma porta USB, e
     Leds indicadores de funcionamento.
@@ -200,19 +208,21 @@ ESP32-WROOM-32E, as representações esquemáticas destes componentes estão dis
 \subsection{Ambiente de Desenvolvimento}
 
 Outra característica importante dos ESP32 é que eles utilizam o \ac{ESP-IDF} o ambiente de desenvolvimento oficial 
-disponibilizado pelo fabricante baseado \textit{FREERTOS}®. Um ambiente amplamente documentado com \textit{scripts} 
-Python e Cmake que facilitam o processo de compilação e \textit{link} do \textit{firmware}, além disso do ponto de 
-vista da compilação o \ac{ESP-IDF} utiliza versões oficiais do GCC com \textit{backend} específico para a a família de 
+disponibilizado pelo fabricante baseado \textit{FREERTOS}®. Um ambiente amplamente documentado com utilização do 
+\textit{Cmake} para organização do processo compilação e inclusão das bibliotecas e, em nivel mais alto, de \textit{scripts Python}
+para automatização de processos como reconhecimento da placa, \textit{link} e \textit{upload}, assim como demostrado na figura
+\autoref{fig:esp-idf}. Além disso, do ponto de 
+vista da compilação o \ac{ESP-IDF} utiliza versões oficiais do \ac{GCC} com \textit{backend} específico para a a família de 
 processadores Xtensa® LX6\footnote{Essa informação não abrange os ESP32-S2 ou ESP32-C3, estas séries de processadores
-possuem versões diferentes do GCC (backend LX7, RISCV e etc.) assim como descrito no Github do \ac{MAPL}\cite{mapl-repo}};
-e são, portanto, compatíveis com todas as linguagens suportadas no \textit{frontend} do GCC utilizado (C, C++, Objective-C,
+possuem versões diferentes do \ac{GCC} (backend LX7, RISCV e etc.) assim como descrito no Github do \ac{MAPL} \url{https://github.com/MAPL-UFU/IndustrialAutomationMQTT}};
+e são, portanto, compatíveis com todas as linguagens suportadas no \textit{frontend} do \ac{GCC} utilizado (C, C++, Objective-C,
 FORTRAN, Go e etc).
 
 \begin{figure}[htb]
     \begin{center}
 	    \includegraphics[scale=0.5]{figs/comp-flow.png}
 	\end{center}
-	\caption{Modelo \ac{ESP-IDF}.} 
+	\caption{\label{fig:esp-idf} Modelo \ac{ESP-IDF}.} 
 \end{figure}
 
 No momento da construção deste trabalho, a versão de suporte padrão para o \textit{framework} utilizava o GCC 5.3  com 
@@ -228,7 +238,7 @@ novo padrão para o compilador \cite{gcc-5}.
 \section{A plataforma Raspberry PI\textregistered}
 
 Uma plataforma que tem ganhado bastante notoriedade tanto nos assuntos que envolvem engenharia quanto na area da computação
-são os Raspberry PI, um pouco diferente do que costuma-se ver em \textit{chips all-in-one} os Raspbery-PI se dispõe a 
+são os Raspberry PI. Um pouco diferente do que costuma-se ver em \textit{chips all-in-one} os Raspbery-PI se dispõe a 
 ser um \textit{Desktop} completo com entradas para teclado, mouse, saídas de audio e video, se mostrando até como uma 
 opção para uso pessoal. Estes componentes impressionam bastante por suas capacidades em um primeiro contato. Apesar 
 de aparecerem associados a projetos \textit{open source} de várias formas, eles não o são; muito embora seja possível
@@ -249,17 +259,55 @@ Apesar da Raspbery disponibilizar em seu site um \ac{SO} específico para uso ne
 desenpenho da mesma; no contexto do corrente trabalho o \ac{SO} utilizado foi a atual versão \ac{LTS} do Ubunto Server (22.04),
 que por ser uma das versões mais utilizadas mundialmente em servidores garante que todos os códigos utilizados aqui podem 
 ser portabilizados para servidores padrão, estejam eles em nuvem ou não. O passo a passo desta instalação pode ser 
-encontrado em na página do fabricante. \cite{ubunto-inst}
+encontrado em na página dos desenvolveedores do Ubunto. \cite{ubunto-inst}
 
 \section{Mosquitto\textregistered~ Broker}
 
 Desenvolvido pela Eclipse Foudation\textregistered~ o \textit{Broker} Eclipse Mosquitto, ou somente Mosquitto, é uma 
-implementação de um \textit{Broker} \ac{MQTT} com interface de simples aprendimento, tanto para instalações locais,
+implementação de um \textit{Broker} \ac{MQTT} com interface de simples aprendizagem, tanto para instalações locais,
 quanto para aquelas feitas de forma remota. Além disso, o Mosquitto é conhecido por ser um programa que requer para 
 seu funcionamento poucos recursos seja no âmbito do processamento ou no âmbito do espaço em memória.
 
 Embora muito simples, o \textit{Broker} Mosquitto possui uma série de funções importantes que vão desde segurança via 
-certificados x509 até a implementação do modo Bridge: Um modo de funcionamento onde as mensagens publicadas em um 
-\textit{Broker} são repetidas em um ou mais espelhos, sendo o contrário também possível todas estas possíveis configurações
+certificados x509 até a implementação do modo \textit{Bridge}: Um modo de funcionamento onde as mensagens publicadas em um 
+\textit{Broker} são repetidas em um ou mais espelhos, sendo o contrário também possível, todas estas possíveis configurações
 podem ser consultadas na documentação dos arquivos ".conf". \cite{mosq-doc}
  
+
+\section{SSL e TLS}
+
+Quando se fala em comunicação via Internet uma das primeiras preocupações que surgem em qualquer projeto é quanto a segurança
+ e integridade dos dados trafegados pela rede; e quando se fala de utilização de servidores em nuvem, esta preocupação fica 
+ ainda maior, visto que os dados serão tratados e armazenados seguindo as políticas de terceiros que muitas das vezes podem 
+ não ser compatíveis com os requisitos desejados. Atualmente, técnica mais utilizada para garantir a segurança na transmissão
+ de dados é a utilização do \ac{TLS}, uma série de protocolos definidos no RFC 5246 \cite{tls-sec} para o processo de encriptação utilizando, em partes criptografia
+ de chave simétrica e em outros momentos criptografia de chaves assimétricas, podendo ser dividido em dois grandes protocolos: 
+
+\begin{itemize}
+    \item \textbf{\textit{TLS Record Protocol}} utilizado diretamente para a transferência de dados, que serão 
+     criptografados geralmente seguindo o modelo definido em pela \ac{AES} tendo como chave simétrica o valor definido ao final
+     do processo de negociação.
+     
+    \item \textbf{\textit{TLS Handshake Protocol}} onde são definidas as regras para a negociação da forma como será feita a
+    transferência dos dados (algoritmo de criptografia, algoritmo de \textit{hash}, tamanho de bloco, \textit{padding}, entre outros).
+    Vale ressaltar que nesta etapa deve ser utilizado algum algoritmo de chaves assimétricas como \ac{RSA} ou \ac{ECDSA} para garantir a identidade dos negociantes. 
+\end{itemize}
+
+O \ac{SSL}, por sua vez, possui grande semelhança com o protocolo \ac{TLS} inclusive na maneira como
+é redigido o documento emitido pela Netscape\textregistered~em 1996 revisado em 2011 "The SSL Protocol - Version 3.0" \cite{netscape}, possuindo praticamente a
+mesma estrutura. Porém, o desenvolvimento dos métodos utilizados na Internet e principalmente da segurança da informação
+mostraram que algumas alterações eram necessária para a manutenção da segurança nas transmissões, assim limitando a utilização
+de algumas funções de \textit{Hash}, métodos de geração de números pseudo-aleatórios, incluindo passos intermediários e entre outros.
+Assim como pode ser confirmado pelo trecho da própria RFC 5246:
+
+\begin{citacao}
+   The differences between this protocol and SSL 3.0 are not dramatic, but they are
+   significant enough that the various versions of TLS and SSL 3.0 do
+   not interoperate (although each protocol incorporates a mechanism by
+   which an implementation can back down to prior versions).\cite{tls-sec}
+\end{citacao}
+
+Por fim, no contexto deste trabalho, a utilização tanto do \ac{TLS} quanto do \ac{SSL} aconteceu de forma bem simples, os ESP-32
+possuem aceleradores em \textit{hardware} para: \ac{AES}, \ac{SHA}, \ac{RSA} e \ac{RNG}; todos compatíveis com ambos os protocolos,
+esses aceleradores são disponiblizados pelo componente embedtls que pode ser acionado nas opções do \ac{ESP-IDF}.
+

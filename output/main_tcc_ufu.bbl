@@ -101,13 +101,6 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e\_esp32-wroom-32ue\_datasheet\_en.pdf}.}
 
-\bibitem{mapl-repo}
-\abntrefinfo{Mapl-Ufu}{MAPL-UFU}{2022}
-{MAPL-UFU. \emph{{IndustrialAutomationMQTT}}. 2022.
-[Online; accessed 26. Aug. 2022].
-Dispon{\'\i}vel em:
-  \url{https://github.com/MAPL-UFU/IndustrialAutomationMQTT}.}
-
 \bibitem{suported-c}
 \abntrefinfo{espressif}{ESPRESSIF}{2022}
 {ESPRESSIF. \emph{Suporte para C++17}. 2022.
@@ -126,11 +119,28 @@ Dispon{\'\i}vel em: \url{https://gcc.gnu.org/gcc-5/changes.html}.}
 [Online; accessed 29. Aug. 2022].
 Dispon{\'\i}vel em: \url{https://datasheets.raspberrypi.com}.}
 
+\bibitem{ubunto-inst}
+\abntrefinfo{How\ldots}{HOW\ldots}{2022}
+{HOW to install Ubuntu Server on your Raspberry Pi Ubuntu. 2022.
+[Online; accessed 3. Sep. 2022].
+Dispon{\'\i}vel em:
+  \url{https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi\#1-overview}.}
+
 \bibitem{mosq-doc}
 \abntrefinfo{Mosquitto}{MOSQUITTO}{2022}
 {MOSQUITTO, E. \emph{{mosquitto conf man page}}. 2022.
 [Online; accessed 26. Aug. 2022].
 Dispon{\'\i}vel em: \url{https://mosquitto.org/man/mosquitto-conf-5.html}.}
+
+\bibitem{tls-sec}
+\abntrefinfo{Dierks e Rescorla}{DIERKS; RESCORLA}{2008}
+{DIERKS, T.; RESCORLA, E. \emph{The Transport Layer Security (TLS) Protocol
+  Version 1.2}. 2008.
+[Online; accessed 7. Sep. 2022].}
+
+\bibitem{netscape}
+\abntrefinfo{Freier, Karlton e Kocher}{FREIER; KARLTON; KOCHER}{2011}
+{FREIER, A.; KARLTON, P.; KOCHER, P. \emph{Netscape Communications}. 2011.}
 
 \bibitem{esp-idf-docs}
 \abntrefinfo{ESP-IDF\ldots}{ESP-IDF\ldots}{2022}

@@ -2,15 +2,15 @@
 
 A realização do trabalho se mostrou de grande valia para o desenvolvimento, tanto pessoal do aluno, quanto para as 
 necessidades do laboratório, obtendo pleno sucesso no que tangia ao escopo proposto, sendo possível a realização
-do controle discreto dos circuitos propostos utilizando os circuitos em Edge e em Nuvem utilizando o protocolo MQTT. 
+do controle discreto dos circuitos propostos utilizando os circuitos em \textit{Edge} e em Nuvem utilizando o protocolo MQTT. 
 Mostrando-se diretamente como uma poderosa alternativa aos modelos amplamente utilizados no contexto de sistemas 
-Elétrohidropneumáticos atualmente, sendo eles tanto a lógica de relés aplicada diretamente, quanto utilizando \ac{CLP}, ou até métodos 
+elétro-hidráulicos e elétro-pneumáticos atualmente, sendo eles tanto a lógica de relés aplicada diretamente, quanto utilizando \ac{CLP}, ou até métodos 
 mais complexos; ao passo que é também uma solução de baixo custo e que simplifica em muito a implementação de circuitos
 lógicos de forma facilmente escalável. 
 
 \section{Principais Contribuições}
 
-O principal produto do trabalho realizado é a apresentação de um framework para realização do controle de uma sistema
+O principal produto do trabalho realizado é a apresentação de um \textit{framework} para realização do controle de uma sistema
  via MQTT de forma que os códigos utilizados no controle de cada ESP32 são modulares e podem ser facilmente substituidos
  para diversos outros tipos de dados a serem repassados a depender do maquinário a ser utilizado. Além disso, o sistema
  apresenta um segundo grande ganho que é a implementação de um sistema com habilidade de lidar com falhas no sistema de 
@@ -25,5 +25,5 @@ Apesar do sucesso da comunicação em relação ao funcionamento do sistema, for
  a ser resolvido no futuro é a inclusão de sistemas capazes de perceber erros nos sensores em tempo real, para reduzir 
  erros como mal contato e por fim fica também como uma possibilidade a ser estudada o uso deste tipo de comunicação para 
  controle não discreto. Por fim, existe também um grande interesse do \ac{MAPL} no estudo de quais as melhores maneiras 
- de dimensionar o componente responsável pela lógica do sistema, neste trabalho, este componente foi implementado de forma 
- bastante simples em \textit{Python}.
+ de dimensionar o componente responsável pela lógica do sistema, um aplicativo de controle já está sendo estudado; neste
+ trabalho, este componente foi implementado de forma bastante simples em \textit{Python}, como apresentado no experimento 2.

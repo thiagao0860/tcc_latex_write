@@ -11,7 +11,10 @@ sendo, neste trabalho, a proposta dividir todo o código em três bibliotecas pr
 Responsável por gerenciar o acesso dos ESP32 na rede Wifi, importante pois facilita o acesso a rede wifi utilizada 
 gerenciando internamente o modelo de acesso que a depender do local e do tipo do experimento mudava de \ac{WPA2-PSK}
 para \ac{WPA2-ENT}, vale ressaltar que entre os vários protocolos utilizados no \ac{WPA2-ENT} preferia-se sempre o uso do 
-\ac{PEAP-MSCHAPv2}. A \autoref{fig:wifi} apresenta uma representação do sistema de heranças utilizado na biblioteca.
+\ac{PEAP-MSCHAPv2}. A \autoref{fig:wifi} apresenta uma representação do sistema de heranças utilizado na biblioteca onde
+temos, a partir da classe \textit{Wifi Event Handler} que implementa os métodos para o envio e recebimento de dados,
+duas classes derivadas (\textit{WPA2 PSK} e \textit{WPA2 ENT}) com os métodos responsáveis pelo processo de autenticação,
+variando para cada protocolo.
 
 \begin{figure}[htb]
     \begin{center}
@@ -26,7 +29,9 @@ Responsável por controlar a comunicação \ac{MQTT} como um todo. A maneira uti
 baseia no sistema de eventos, onde cada evento está relacionado com uma etapa do estabelecimento da comunicação, 
 porém as funções chamadas em cada um das etapas são métodos de uma classe que representa a conexão, de forma que 
 a implementação da biblioteca em projetos futuros fique bem simples, se limitando a pouco mais do que instanciar o 
-objeto e chamar o método \textit{PostData}. A \autoref{fig:mqtt} apresenta o modelo utilizado.
+objeto e chamar o método \textit{PostData}. A \autoref{fig:mqtt} apresenta o modelo utilizado, apresentando os métodos
+padrão para o estabelecimento da conexão \ac{MQTT} (destacados em \textit{MQTT Standard Events}) e os \textit{Hi-Level Events}
+que simplificam o processo de envio e serão os únicos utilizados doravante.
 
 \begin{figure}[htb]
     \begin{center}
@@ -40,7 +45,8 @@ objeto e chamar o método \textit{PostData}. A \autoref{fig:mqtt} apresenta o mo
 
 Responsável por controlar a comunicação serial via \ac{UART} com diversos componentes. Do ponto de vista da arquitetura
 ela segue os mesmos conceitos utilizados pela biblioteca responsável pelo \ac{MQTT} com as diferenças sendo basicamente
-internas nas partes responsáveis pela instalação dos drivers para utilização dos pinos dos componentes.
+internas nas partes responsáveis pela instalação dos drivers para utilização dos pinos dos componentes. A \autoref{fig:serial}
+apresenta a estrutura da classe desenvolvida para comunicação serial. 
 
 \begin{figure}[htb]
     \begin{center}
@@ -55,13 +61,15 @@ Uma colocação importante é a de que estas bibliotecas seguem o modelo de dese
 \url{https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html}\cite{esp-idf-docs}}
 de forma que eles devem ser independentes e podem ser facilmente incorporados a códigos de terceiros
 \footnote{Na documentação das bibliotecas no repositório existe um passo a passo de como essa importação pode feita 
-utilizado somente um comando dos \textit{submodules} do GIT \cite{mapl-repo}}, mas que quando utilizados em conjunto 
-apresentam ganhos, pois o fato de utilizarem a mesma classe mãe garante que eles utilizem somente um \textit{loop} de 
-eventos e, portanto, menos recursos em memória já que na implemetação do \ac{ESP-IDF} todos os \textit{loops} de eventos
-possuem no mínimo uma task em memória associada. 
+utilizado somente um comando dos \textit{submodules} do GIT: \url{https://github.com/MAPL-UFU/IndustrialAutomationMQTT}},
+ mas que quando utilizados em conjunto apresentam ganhos, pois o fato de utilizarem a mesma classe mãe (\textit{Base Event Handler}) garante que eles utilizem
+ somente um \textit{loop} de eventos e, portanto, menos recursos em memória já que na implemetação do \ac{ESP-IDF} todos 
+ os \textit{loops} de eventos possuem no mínimo uma \textit{task} em memória associada. 
 
 Por fim, um segundo objetivo deste trabalho é propor um modelo de comunicação que possua meios para garantir a comunicação
-local, diretamente via \ac{MQTT}, mesmo no caso de falhas dos servidores em nuvem, para isso incluir-se-á a descrição da 
-configuração do \textit{Broker} mosquitto para tal.
+local, diretamente via \ac{MQTT}, mesmo no caso de falhas dos servidores em nuvem, para isso foi utilizado localmente
+o \textit{Broker} Mosquitto\textregistered~ em modo \textit{Bridge}, em que, como foi mencionado na fundamentação teórica,
+é possível replicar mensagens de tópicos específicos em \textit{Brokers} distintos, os códigos de configuração utilizados 
+estão no \autoref{ape:moss}.
 
 

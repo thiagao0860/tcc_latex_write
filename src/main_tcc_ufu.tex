@@ -18,7 +18,7 @@
 % 	dissertmst: Formata documento para dissertação de mestrado
 % 	qualimst:   Formata documento para qualificação de mestrado
 % ------------------------------------------------------------------------
-\documentclass[dissertgrad]{tcc}
+\documentclass[dissertgrad,oneside]{tcc}
 %Não altere o comando seguinte. O título de seu trabalho será especificado mais adiante.
 \title{Trabalho de Conclusão de Curso}
 
@@ -162,7 +162,8 @@ o aparato da faculdade de Mecânica da UFU.
 % Epígrafe
 % ---
 \imprimirepigrafe{
-		``Sobre isto dizem os filósofos que a Natureza não faz nada em vão, e mais algo é vão quando menos serve. Pois a Natureza é simples e não se compraz com causas supérfluas.''\\
+		``Sobre isto dizem os filósofos que a Natureza não faz nada em vão, e mais algo é vão quando menos serve. 
+        Pois a Natureza é simples e não se compraz com causas supérfluas.''\\
 		(Isaac Newton)
 }
 % ---
@@ -174,24 +175,32 @@ o aparato da faculdade de Mecânica da UFU.
 % Resumo em português - as palavras entre chaves são as palavras-chave do trbalho
 \begin{resumo}{MQTT, Nuvem, IOT, Comando, microcontroladores, Industria 4.0}
 
-    Uma das principais linhas de desenvolvimento na Indústria 4.0 é o desenvolvimento de componentes responsáveis por 
-    realizar parte do processamento em \textit{edge}, de forma a enviar para os grandes processadores somente os dados
-    cruciais para o sistema. Neste sentido este projeto se dispõe a apresentar um modelo comunicação para inclusão de
-    componentes básicos utilizados em sistemas de manufatura neste modelo; apresentando uma série de tecnologias 
+    Uma das linhas de desenvolvimento na Indústria 4.0 é a \ac{IOT} onde busca-se a inclusão de componentes responsáveis por 
+    realizar parte do processamento em \textit{edge}, de forma a enviar para os servidores centrais da aplicação (geralmente 
+    alocados em lugares especiais ou até em nuvem) somente os dados cruciais para o sistema. Um dos principais meios para a 
+    concretização deste conceito é o protocolo \ac{MQTT}, pois o mesmo permite que cada objeto tenha maior autonomia para definir suas funções
+    na rede.
+    Neste sentido este projeto se dispõe a apresentar um modelo comunicação para inclusão de
+    elementos básicos utilizados em sistemas de manufatura ao modelo \ac{IOT}; apresentando uma série de tecnologias 
     selecionadas para manter a implementação destes conceitos simples e adaptável a uma grande gama de componentes.
-    Por fim, foram realizados uma série de testes comprovando a funcionalidade do modelo e suas limitações.   
+    Por fim, foram realizados uma série de testes em bancada eletro-hidráulica e eletro-pneumática comprovando fisicamente
+    a funcionalidade do modelo e suas limitações.   
 
 \end{resumo}
 
 % Resumo em inglês
 \begin{abstract}{MQTT, Cloud, IOT, Command, microcontrolers, Industry 4.0}
 
-    One of the main development lines in Industry 4.0 is the development of components responsible for
-    perform part of the processing at the edge, sending to the big processors only the crucial data
-    to the system. In this sense, this project intends to present a communication model to include
+    One of development lines in Industry 4.0 is \ac{IOT} which seeks to include development of components responsible for
+    perform part of the processing at the edge, sending to the main application servers (generally
+    allocated in special places or even in the cloud) only the crucial data
+    to the system. One of the main lines for
+    implementation of this concept is \ac{MQTT} protocol, whitch allows each object to have more autonomy to define its functions
+    on the network. In this sense, this project intends to present a communication model to include
     basic components used in manufacturing systems in this model; featuring a range of technologies
     selected to keep the implementation of these concepts simple and adaptable to a wide range of components.
-    Finally, a series of tests were carried out proving the model functionality and its limitations.
+    Finally, a series of tests were carried out on electro-hydraulic and electro-pneumatic benchs, physically proving 
+    the model functionality and its limitations.
 	
 \end{abstract}
 % ---
@@ -199,6 +208,7 @@ o aparato da faculdade de Mecânica da UFU.
 % ---
 % inserir lista de ilustrações
 % ---
+\newpage
 \listailustracoes
 % ---
 
