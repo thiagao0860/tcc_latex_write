@@ -29,11 +29,19 @@ cilindros utilizando o sistema \ac{MQTT} para promover a comunicação em Edge e
 	\caption{\label{fig:exp1} Diagrama do primeiro experimento realizado.} 
 \end{figure}
 
+
+\begin{figure}[htb]
+    \begin{center}
+	    \includegraphics[width=400pt]{figs/diag_data_exp1.png}
+	\end{center}
+	\caption{\label{fig:exp1data} Diagrama representativo do fluxo de dados do experimento 1.} 
+\end{figure}
+
 O primeiro experimento realizado se dispunha a realizar o controle de apenas um cilindro pneumático de forma que dois
 ESP32 foram utilizados no sistema \ac{MQTT} para promover a comunicação, um microcontrolador era responsável por monitorar 
 os sensores e disponibilizar seu estado em rede, assim sendo caracterizado como um publicador; enquanto o outro 
 microcontrolador era responsável por controlar o estado do cilindro utilizando as informações disponibilizadas pelos 
-sensores assim, assim sendo caracterizado como um subscritor. Na \autoref{fig:exp1} existe um diagrama da montagem 
+sensores assim, assim sendo caracterizado como um subscritor. Na \autoref{fig:exp1} e \autoref{fig:exp1data} estão os diagramas da montagem 
 realizada. Neste Exemplo, foram utilizados tanto a implementação local do \textit{Broker Eclipse Mosquitto\textregistered~}quanto 
 o disponibilizado pela AWS\textregistered~, AWS Iot Core. Vale ressaltar que no caso do \textit{Broker} via AWS foi necessário a 
 implementação de Segurança \ac{TLS} e dos Certificados x.509 gerados diretamente na plataforma para a utilização do \textit{Broker}
@@ -65,9 +73,17 @@ eles estão disponíveis e documentados repositório no Github\textregistered~ d
 	\caption{\label{fig:exp2} Diagrama do segundo experimento realizado.} 
 \end{figure}
 
+\begin{figure}[htb]
+    \begin{center}
+	    \includegraphics[width=400pt]{figs/diag_data_exp2.png}
+	\end{center}
+	\caption{\label{fig:exp2data} Diagrama representativo do fluxo de dados do experimento 2.} 
+\end{figure}
+
+
 Já no segundo Experimento, foi utilizada uma montagem onde cada Esp-32 era responsável por um cilindro, isto é, 
 controlando tanto suas entradas como suas saídas, assim cada cilindro é, ao mesmo tempo, um publicador e um subscritor.
-Na \autoref{fig:exp2} existe um diagrama da montagem realizada. Neste experimento não foram utilizados os recursos da AWS,
+Na \autoref{fig:exp2} e na \autoref{fig:exp2data} estão os diagramas da montagem realizada. Neste experimento não foram utilizados os recursos da AWS,
 em vez disso, agora que já tínhamos testado a comunicação
 pela rede deles, neste segundo momento optou-se pelos serviços gratuitos disponibilizados pelo site shiftr.io já que o foco 
 não era os elementos de segurança da rede em si, implementação do \ac{SSL} ou geração das permisões. A essa altura o

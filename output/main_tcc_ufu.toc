@@ -13,10 +13,10 @@
 \contentsline {section}{\numberline {2.2}Computação em Nuvem}{20}{section.2.2}%
 \contentsline {section}{\numberline {2.3}O Protocolo MQTT}{21}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Microcontroladores ESP32}{22}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Características do Componente}{23}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Ambiente de Desenvolvimento}{24}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}A plataforma Raspberry PI\textregistered }{25}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Mosquitto\textregistered ~ Broker}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.4.1}Características do Componente}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Ambiente de Desenvolvimento}{23}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}A plataforma Raspberry PI\textregistered }{24}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Mosquitto\textregistered ~ Broker}{25}{section.2.6}%
 \contentsline {section}{\numberline {2.7}SSL e TLS}{26}{section.2.7}%
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Proposta}}{28}{chapter.3}%
 \contentsline {section}{\numberline {3.1}ESP-Wifi}{28}{section.3.1}%
@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {4.1}Método para a Avaliação}{32}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Experimentos}{32}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Experimento 1 — Controle de 1 cilindro}{32}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Experimento 2 — Controle de 2 cilindros}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Experimento 2 — Controle de 2 cilindros}{34}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Avaliação dos Resultados}{36}{section.4.3}%
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{38}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Principais Contribuições}{38}{section.5.1}%

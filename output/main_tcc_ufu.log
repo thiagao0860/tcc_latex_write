@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.22)  7 SEP 2022 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.22)  9 SEP 2022 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,7 +1309,7 @@ although it is yet undefined on input line 25.
 
 
 (./cap_fundamentacao/fundamentacao.tex
-<figs/set-pneumatica.jpg, id=299, 938.50626pt x 370.38374pt>
+<figs/set-pneumatica.jpg, id=303, 938.50626pt x 370.38374pt>
 File: figs/set-pneumatica.jpg Graphic file (type jpg)
 <use figs/set-pneumatica.jpg>
 Package pdftex.def Info: figs/set-pneumatica.jpg  used on input line 13.
@@ -1330,7 +1330,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.24 
       <./figs/set-pneumatica.jpg>]
-<figs/std-example.png, id=306, 863.225pt x 588.1975pt>
+<figs/std-example.png, id=310, 863.225pt x 588.1975pt>
 File: figs/std-example.png Graphic file (type png)
 <use figs/std-example.png>
 Package pdftex.def Info: figs/std-example.png  used on input line 35.
@@ -1352,7 +1352,7 @@ Package acronym Info: Label `acro:LD' newly defined as it shall be overridden
 although it is yet undefined on input line 73.
 Package acronym Info: Label `acro:FBD' newly defined as it shall be overridden
 although it is yet undefined on input line 73.
-<figs/ladder-diag.png, id=333, 228.855pt x 116.435pt>
+<figs/ladder-diag.png, id=337, 228.855pt x 116.435pt>
 File: figs/ladder-diag.png Graphic file (type png)
 <use figs/ladder-diag.png>
 Package pdftex.def Info: figs/ladder-diag.png  used on input line 88.
@@ -1361,7 +1361,7 @@ Package acronym Info: Label `acro:GRAFCET' newly defined as it shall be overrid
 den
 although it is yet undefined on input line 96.
  [19]
-<figs/grafcet-diag.png, id=354, 252.945pt x 457.71pt>
+<figs/grafcet-diag.png, id=358, 252.945pt x 457.71pt>
 File: figs/grafcet-diag.png Graphic file (type png)
 <use figs/grafcet-diag.png>
 Package pdftex.def Info: figs/grafcet-diag.png  used on input line 109.
@@ -1384,12 +1384,12 @@ l.125
                                                   \fi \fi 
 l.156 
        <./figs/grafcet-diag.png>]
-<figs/mqtt-publish-subscribe.png, id=386, 1027.84pt x 321.2pt>
+<figs/mqtt-publish-subscribe.png, id=390, 770.88pt x 240.9pt>
 File: figs/mqtt-publish-subscribe.png Graphic file (type png)
 <use figs/mqtt-publish-subscribe.png>
 Package pdftex.def Info: figs/mqtt-publish-subscribe.png  used on input line 15
 9.
-(pdftex.def)             Requested size: 308.35437pt x 96.36073pt.
+(pdftex.def)             Requested size: 231.26578pt x 72.27055pt.
 Package acronym Info: Label `acro:CI' newly defined as it shall be overridden
 although it is yet undefined on input line 183.
 Package acronym Info: Label `acro:SoC' newly defined as it shall be overridden
@@ -1401,7 +1401,7 @@ although it is yet undefined on input line 183.
                                                   \fi \fi 
 l.186 
        <./figs/mqtt-publish-subscribe.png>]
-<figs/esp32-familia.png, id=403, 507.0945pt x 187.1793pt>
+<figs/esp32-familia.png, id=408, 507.0945pt x 187.1793pt>
 File: figs/esp32-familia.png Graphic file (type png)
 <use figs/esp32-familia.png>
 Package pdftex.def Info: figs/esp32-familia.png  used on input line 200.
@@ -1415,7 +1415,7 @@ although it is yet undefined on input line 215.
                                                   \fi \fi 
 l.220 
        <./figs/esp32-familia.png>]
-<figs/comp-flow.png, id=425, 507.8975pt x 378.41376pt>
+<figs/comp-flow.png, id=429, 507.8975pt x 378.41376pt>
 File: figs/comp-flow.png Graphic file (type png)
 <use figs/comp-flow.png>
 Package pdftex.def Info: figs/comp-flow.png  used on input line 223.
@@ -1427,7 +1427,7 @@ Package pdftex.def Info: figs/comp-flow.png  used on input line 223.
                                                   \fi \fi 
 l.246 
        <./figs/comp-flow.png>]
-<figs/raspberry-pi-4.png, id=444, 573.14125pt x 341.275pt>
+<figs/raspberry-pi-4.png, id=448, 573.14125pt x 341.275pt>
 File: figs/raspberry-pi-4.png Graphic file (type png)
 <use figs/raspberry-pi-4.png>
 Package pdftex.def Info: figs/raspberry-pi-4.png  used on input line 249.
@@ -1441,7 +1441,7 @@ although it is yet undefined on input line 259.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 
+l.275 
        <./figs/raspberry-pi-4.png>]
 Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
 although it is yet undefined on input line 283.
@@ -1454,12 +1454,11 @@ n
 although it is yet undefined on input line 293.
 Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
 although it is yet undefined on input line 296.
- [26]
 Package acronym Info: Label `acro:SHA' newly defined as it shall be overridden
 although it is yet undefined on input line 311.
 Package acronym Info: Label `acro:RNG' newly defined as it shall be overridden
 although it is yet undefined on input line 311.
-) [27]
+ [26]) [27]
 \openout2 = `cap_proposta/proposta.aux'.
 
  (./cap_proposta/proposta.tex
@@ -1472,7 +1471,7 @@ although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:PEAP-MSCHAPv2' newly defined as it shall be o
 verridden
 although it is yet undefined on input line 14.
-<figs/wifi-dia.png, id=503, 588.0369pt x 340.1508pt>
+<figs/wifi-dia.png, id=507, 588.0369pt x 340.1508pt>
 File: figs/wifi-dia.png Graphic file (type png)
 <use figs/wifi-dia.png>
 Package pdftex.def Info: figs/wifi-dia.png  used on input line 21.
@@ -1483,11 +1482,11 @@ Package pdftex.def Info: figs/wifi-dia.png  used on input line 21.
 
 
 ]
-<figs/mqtt-dia.png, id=514, 283.5393pt x 562.7424pt>
+<figs/mqtt-dia.png, id=518, 283.5393pt x 562.5015pt>
 File: figs/mqtt-dia.png Graphic file (type png)
 <use figs/mqtt-dia.png>
 Package pdftex.def Info: figs/mqtt-dia.png  used on input line 38.
-(pdftex.def)             Requested size: 141.7693pt x 281.37051pt.
+(pdftex.def)             Requested size: 141.7693pt x 281.25006pt.
 Package acronym Info: Label `acro:UART' newly defined as it shall be overridden
 
 although it is yet undefined on input line 46.
@@ -1504,11 +1503,11 @@ l.50
                                                   \fi \fi 
 l.50 
       <./figs/wifi-dia.png> <./figs/mqtt-dia.png>]
-<figs/serial-dia.png, id=524, 342.5598pt x 528.2937pt>
+<figs/serial-dia.png, id=528, 342.3189pt x 528.2937pt>
 File: figs/serial-dia.png Graphic file (type png)
 <use figs/serial-dia.png>
 Package pdftex.def Info: figs/serial-dia.png  used on input line 53.
-(pdftex.def)             Requested size: 171.27946pt x 264.14621pt.
+(pdftex.def)             Requested size: 171.15901pt x 264.14621pt.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 11}) has been already used, duplicate ignored
 
@@ -1522,91 +1521,113 @@ l.58 \newpage
 (./cap_experimentos/experimentos.tex
 Package acronym Info: Label `acro:LEM' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
-<figs/diag_exp1.png, id=553, 344.9688pt x 280.8894pt>
+<figs/diag_exp1.png, id=557, 344.9688pt x 280.8894pt>
 File: figs/diag_exp1.png Graphic file (type png)
 <use figs/diag_exp1.png>
 Package pdftex.def Info: figs/diag_exp1.png  used on input line 27.
 (pdftex.def)             Requested size: 172.48396pt x 140.44435pt.
+<figs/diag_data_exp1.png, id=558, 1344.7038pt x 380.3811pt>
+File: figs/diag_data_exp1.png Graphic file (type png)
+<use figs/diag_data_exp1.png>
+Package pdftex.def Info: figs/diag_data_exp1.png  used on input line 35.
+(pdftex.def)             Requested size: 400.0pt x 113.1459pt.
  [32
 
 
 
 ]
-<figs/cert_flow.png, id=568, 889.8846pt x 873.7443pt>
+<figs/cert_flow.png, id=574, 889.8846pt x 873.7443pt>
 File: figs/cert_flow.png Graphic file (type png)
 <use figs/cert_flow.png>
-Package pdftex.def Info: figs/cert_flow.png  used on input line 52.
+Package pdftex.def Info: figs/cert_flow.png  used on input line 60.
 (pdftex.def)             Requested size: 444.94121pt x 436.87108pt.
-<figs/diag_exp2.png, id=569, 638.385pt x 273.1806pt>
+<figs/diag_exp2.png, id=575, 638.385pt x 273.1806pt>
 File: figs/diag_exp2.png Graphic file (type png)
 <use figs/diag_exp2.png>
-Package pdftex.def Info: figs/diag_exp2.png  used on input line 63.
+Package pdftex.def Info: figs/diag_exp2.png  used on input line 71.
 (pdftex.def)             Requested size: 319.19171pt x 136.58995pt.
  [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.81 
-      <./figs/diag_exp1.png>]
-<figs/diag_conn.png, id=583, 864.5901pt x 743.1765pt>
-File: figs/diag_conn.png Graphic file (type png)
-<use figs/diag_conn.png>
-Package pdftex.def Info: figs/diag_conn.png  used on input line 84.
-(pdftex.def)             Requested size: 300.0pt x 257.87036pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-13}) has been already used, duplicate ignored
+l.74 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.4.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.98 
-      <./figs/cert_flow.png>]
-<figs/exp_h.png, id=594, 624.3325pt x 340.27126pt>
-File: figs/exp_h.png Graphic file (type png)
-<use figs/exp_h.png>
-Package pdftex.def Info: figs/exp_h.png  used on input line 104.
-(pdftex.def)             Requested size: 312.16548pt x 170.13521pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+l.74 \end{figure}
+                  <./figs/diag_exp1.png> <./figs/diag_data_exp1.png>]
+<figs/diag_data_exp2.png, id=585, 1606.0803pt x 940.4736pt>
+File: figs/diag_data_exp2.png Graphic file (type png)
+<use figs/diag_data_exp2.png>
+Package pdftex.def Info: figs/diag_data_exp2.png  used on input line 78.
+(pdftex.def)             Requested size: 400.0pt x 234.22809pt.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.4.15}) has been already used, duplicate ignored
+l.97 
+      <./figs/cert_flow.png>]
+<figs/diag_conn.png, id=597, 864.5901pt x 743.1765pt>
+File: figs/diag_conn.png Graphic file (type png)
+<use figs/diag_conn.png>
+Package pdftex.def Info: figs/diag_conn.png  used on input line 100.
+(pdftex.def)             Requested size: 300.0pt x 257.87036pt.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 \end{figure}
-                   <./figs/diag_exp2.png> <./figs/diag_conn.png>]
-<figs/exp_p.png, id=601, 561.09625pt x 302.12875pt>
+l.114 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.114 
+       <./figs/diag_exp2.png> <./figs/diag_data_exp2.png>]
+<figs/exp_h.png, id=609, 624.3325pt x 340.27126pt>
+File: figs/exp_h.png Graphic file (type png)
+<use figs/exp_h.png>
+Package pdftex.def Info: figs/exp_h.png  used on input line 120.
+(pdftex.def)             Requested size: 312.16548pt x 170.13521pt.
+<figs/exp_p.png, id=610, 561.09625pt x 302.12875pt>
 File: figs/exp_p.png Graphic file (type png)
 <use figs/exp_p.png>
-Package pdftex.def Info: figs/exp_p.png  used on input line 111.
+Package pdftex.def Info: figs/exp_p.png  used on input line 127.
 (pdftex.def)             Requested size: 280.54744pt x 151.064pt.
 ) [36pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.16}) has been already used, duplicate ignored
+.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.259 \include{cap_experimentos/experimentos}
+                                              <./figs/diag_conn.png>] [37pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.4.18}) has b
+een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.259 \include{cap_experimentos/experimentos}
                                              pdfTeX warning (ext4): destination
- with the same identifier (name{figure.4.17}) has been already used, duplicate 
+ with the same identifier (name{figure.4.19}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.259 \include{cap_experimentos/experimentos}
                                               <./figs/exp_h.png> <./figs/exp_p.
-png>] [37]
+png>]
 \openout2 = `cap_conclusao/conclusao.aux'.
 
  (./cap_conclusao/conclusao.tex) [38
 
 
 
-] [39]
-(../output/main_tcc_ufu.bbl
+] [39] (../output/main_tcc_ufu.bbl
 bibitemlist
 [40
 
@@ -1702,7 +1723,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=891, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=901, 614.295pt x 794.97pt>
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf>
 Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf  used on input
@@ -1713,7 +1734,7 @@ File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf  used on input
  line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=894, page=1, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=904, page=1, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 1>
@@ -1741,7 +1762,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page1 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [52 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=932, page=2, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=942, page=2, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 2>
@@ -1759,7 +1780,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page2 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [53 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=937, page=3, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=947, page=3, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 3>
@@ -1778,7 +1799,7 @@ n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [54 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=943, page=4, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=953, page=4, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 4>
@@ -1796,7 +1817,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page4 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [55 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=948, page=5, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=958, page=5, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 5>
@@ -1814,7 +1835,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page5 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [56 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=953, page=6, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=963, page=6, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 6>
@@ -1832,7 +1853,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page6 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [57 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=958, page=7, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=968, page=7, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 7>
@@ -1850,7 +1871,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page7 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [58 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=963, page=8, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=973, page=8, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 8>
@@ -1868,7 +1889,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page8 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [59 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=973, page=9, 614.295pt x 794.97pt>
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=984, page=9, 614.295pt x 794.97pt>
 
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 9>
@@ -1886,7 +1907,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page9 used o
 n input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [60 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=979, page=10, 614.295pt x 794.97pt
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=990, page=10, 614.295pt x 794.97pt
 >
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 10>
@@ -1904,7 +1925,7 @@ Package pdftex.def Info: ane_mosq_bridge_doc/bridge_conf_man.pdf , page10 used
 on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [61 <./ane_mosq_bridge_doc/bridge_conf_man.pdf>]
-<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=985, page=11, 614.295pt x 794.97pt
+<ane_mosq_bridge_doc/bridge_conf_man.pdf, id=995, page=11, 614.295pt x 794.97pt
 >
 File: ane_mosq_bridge_doc/bridge_conf_man.pdf Graphic file (type pdf)
 <use ane_mosq_bridge_doc/bridge_conf_man.pdf, page 11>
@@ -1934,7 +1955,7 @@ on input line 6.
 
 pdfTeX warning: pdflatex (file ./ane_esp_kit/esp32_devkitc_v4-sch.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ane_esp_kit/esp32_devkitc_v4-sch.pdf, id=994, 1589.94pt x 1228.59pt>
+<ane_esp_kit/esp32_devkitc_v4-sch.pdf, id=1004, 1589.94pt x 1228.59pt>
 File: ane_esp_kit/esp32_devkitc_v4-sch.pdf Graphic file (type pdf)
 <use ane_esp_kit/esp32_devkitc_v4-sch.pdf>
 Package pdftex.def Info: ane_esp_kit/esp32_devkitc_v4-sch.pdf  used on input li
@@ -1957,7 +1978,7 @@ lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./ane_esp_kit/esp32_devkitc_v4-sch.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ane_esp_kit/esp32_devkitc_v4-sch.pdf, id=997, page=1, 1589.94pt x 1228.59pt>
+<ane_esp_kit/esp32_devkitc_v4-sch.pdf, id=1007, page=1, 1589.94pt x 1228.59pt>
 File: ane_esp_kit/esp32_devkitc_v4-sch.pdf Graphic file (type pdf)
 <use ane_esp_kit/esp32_devkitc_v4-sch.pdf, page 1>
 Package pdftex.def Info: ane_esp_kit/esp32_devkitc_v4-sch.pdf , page1 used on i
@@ -1994,7 +2015,7 @@ nput line 6.
 
 
 ]
-<ane_esp_mod/mod-esq.png, id=1027, 1541.76pt x 723.70375pt>
+<ane_esp_mod/mod-esq.png, id=1037, 1541.76pt x 723.70375pt>
 File: ane_esp_mod/mod-esq.png Graphic file (type png)
 <use ane_esp_mod/mod-esq.png>
 Package pdftex.def Info: ane_esp_mod/mod-esq.png  used on input line 8.
@@ -2038,10 +2059,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
  ) 
 Here is how much of TeX's memory you used:
- 19728 strings out of 481239
- 302552 string characters out of 5920377
- 989153 words of memory out of 5000000
- 33944 multiletter control sequences out of 15000+600000
+ 19744 strings out of 481239
+ 302906 string characters out of 5920377
+ 990525 words of memory out of 5000000
+ 33956 multiletter control sequences out of 15000+600000
  629903 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,20n,102p,1034b,2252s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2056,10 +2077,10 @@ s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb><
 /public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on ../output/main_tcc_ufu.pdf (67 pages, 4909090 bytes).
+Output written on ../output/main_tcc_ufu.pdf (67 pages, 5923425 bytes).
 PDF statistics:
- 1325 PDF objects out of 1440 (max. 8388607)
- 1136 compressed objects within 12 object streams
- 427 named destinations out of 1000 (max. 500000)
- 641 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1335 PDF objects out of 1440 (max. 8388607)
+ 1142 compressed objects within 12 object streams
+ 429 named destinations out of 1000 (max. 500000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 
