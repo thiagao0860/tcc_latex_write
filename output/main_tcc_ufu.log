@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.22)  9 SEP 2022 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.22)  25 SEP 2022 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2061,7 +2061,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
 Here is how much of TeX's memory you used:
  19744 strings out of 481239
  302906 string characters out of 5920377
- 990525 words of memory out of 5000000
+ 989525 words of memory out of 5000000
  33956 multiletter control sequences out of 15000+600000
  629903 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2077,7 +2077,7 @@ s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb><
 /public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on ../output/main_tcc_ufu.pdf (67 pages, 5923425 bytes).
+Output written on ../output/main_tcc_ufu.pdf (67 pages, 5923695 bytes).
 PDF statistics:
  1335 PDF objects out of 1440 (max. 8388607)
  1142 compressed objects within 12 object streams
